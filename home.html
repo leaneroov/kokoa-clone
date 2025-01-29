@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        color: lime;
+      }
+      .wrapper {
+        background-color: black;
+        width: 100vw;
+        height: 99vh;
+      }
+      .title {
+        /* border: 1px solid lime; */
+        width: 100%;
+        height: 10%;
+        border: 1px solid lime;
+      }
+      .menubar {
+        width: 180px;
+        height: 90%;
+        /* border: 1px solid aqua; */
+        display: flex;
+        flex-direction: column;
+        border: 1px solid lime;
+      }
+      .menu {
+        width: 100%;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* border: 1px solid pink; */
+        border: 1px solid lime;
+      }
+      .menu:hover {
+        background-color: rgba(0, 255, 0, 0.3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="title">동금넷</div>
+      <div class="menubar">
+        <div class="menu" id="iu">IU 덕질게시판</div>
+        <div class="menu">사촌간볼빨기 덕질게시판</div>
+        <div class="menu">문신녀 덕질게시판</div>
+        <div class="menu">카광 덕질게시판</div>
+      </div>
+    </div>
+  </body>
+</html>
